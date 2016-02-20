@@ -1,0 +1,4 @@
+Source files for the tests. The executables will end up in bin.
+The unit tests for the library are in the subfolder unit_test.
+
+2015 Alexandre Lopes

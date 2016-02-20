@@ -1,0 +1,7 @@
+This project here:
+<https://github.com/aalopes/engineZ>
+should provide a good enough template It is still missing a doxygen target,
+but that's easy to add. More important, everything is clearly structured and 
+the data directory is with make install installed in the right directory.
+
+2015 Alexandre Lopes

@@ -1,0 +1,28 @@
+C BuildEnv
+====================
+
+Simple explanation
+-----------------------------
+
+This is just a simple GNU like build environment / structure.
+I have generated this by stripping a project of my to generate
+a library, but it should be, with small changes, applicable
+to use for creating stand-alone programs.
+
+This file as a markdown file.
+
+Directores
+----------
+
+| Directory |                   Description                    |
+|-----------|--------------------------------------------------|
+| bin       | this is where compiled tests end up              |
+| doc       | where doxygen documentation ends up              |
+| doxygen   | doxygen configuration files / external docs      |
+| include   | contains header files                            |
+| lib       | this is where compiled libraries end up          |
+| patches   | patches to be applied to the original libimaging |
+| src       | source files for the wrapper                     |
+| tests     | source files for tests based on the wrapper      |
+
+Alexandre Lopes

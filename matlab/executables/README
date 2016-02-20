@@ -1,0 +1,8 @@
+To generate Matlab executables (and hence avoid the need to use Licenses),
+generate the prototype file and thunk library file by executing the 
+'generate_prototype.m' file in Matlab. Then run the 'compile_test.sh'
+script on the desired .m script. The executable will be copied to this
+folder. Note that if using different libraries, you will need to adapt
+the 'compile_test.sh' script to your needs.
+
+2015 Alexandre Lopes
