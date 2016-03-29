@@ -26,7 +26,7 @@ all:
 	make -C src all
 
 tests:
-	make -C tests all
+	make -C unit_tests all
 
 
 DOXY_CFG_DIR        := doxygen
@@ -50,7 +50,7 @@ doxy:
 
 clean:
 	- rm -rf doc/*
-	make -C tests clean
+	make -C unit_tests clean
 	make -C src clean
 
 TAGS:
@@ -61,7 +61,7 @@ tags:
 
 pre:
 	make -C src pre
-	make -C tests pre
+	make -C unit_tests pre
 
 help:
 	@cat ./Makefile | awk 'BEGIN {out = 0}; /^#  BEG_HELP/ {out = 0}; {if (out) {print $0}}; /^#  END_HELP/ {out = 1}' | sed -r "s/^\# *//g"
